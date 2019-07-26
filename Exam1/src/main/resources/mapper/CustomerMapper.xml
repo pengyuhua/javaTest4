@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hand.pyh.dao.CustomerMapper">
+
+    <sql id="BaseSql">
+        customer_id, store_id, first_name, last_name, email, address_id, active, create_date,
+        last_update
+    </sql>
+    <sql id="InsertSql">
+        store_id, first_name, last_name, email , address_id, active
+    </sql>
+
+    <resultMap id="BaseResultMap" type="Customer">
+        <id column="customer_id" jdbcType="SMALLINT" property="customer_id" />
+        <result column="store_id" jdbcType="TINYINT" property="store_id" />
+        <result column="first_name" jdbcType="VARCHAR" property="first_name" />
+        <result column="last_name" jdbcType="VARCHAR" property="last_name" />
+        <result column="email" jdbcType="VARCHAR" property="email" />
+        <result column="address_id" jdbcType="SMALLINT" property="address_id" />
+        <result column="active" jdbcType="BIT" property="active" />
+        <result column="create_date" jdbcType="TIMESTAMP" property="create_date" />
+        <result column="last_update" jdbcType="TIMESTAMP" property="last_update" />
+    </resultMap>
+
+    <insert id="insertCustomer" parameterType="Customer" useGeneratedKeys="true" keyProperty="customer_id">
+        insert into customer
+            ( <include refid="InsertSql"></include> )
+        values (
+        #{store_id}, #{first_name}, #{last_name}, #{email}, (select address_id from address where address = #{address}) , #{active})
+    </insert>
+
+    <select id="queryCustomer" parameterType="Customer" resultMap="BaseResultMap">
+        select
+            <include refid="BaseSql"></include>
+        from customer
+        <where>
+            <if test="first_name != null and last_name != null" >
+                and first_name = #{first_name} and last_name = #{last_name}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateCustomerSelective" parameterType="Customer">
+        update customer
+        <set>
+            <if test="store_id != null">
+                store_id = #{store_id,jdbcType=TINYINT},
+            </if>
+            <if test="first_name != null">
+                first_name = #{first_name,jdbcType=VARCHAR},
+            </if>
+            <if test="last_name != null">
+                last_name = #{last_name,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                email = #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="address_id != null">
+                address_id = #{address_id,jdbcType=SMALLINT},
+            </if>
+            <if test="active != null">
+                active = #{active,jdbcType=BIT},
+            </if>
+            <if test="create_date != null">
+                create_date = #{create_date,jdbcType=TIMESTAMP},
+            </if>
+            <if test="last_update != null">
+                last_update = #{last_update,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where customer_id = #{customer_id,jdbcType=SMALLINT}
+    </update>
+    
+    <delete id="deleteCustomer" parameterType="java.lang.Integer">
+        delete from customer where customer_id = #{customer_id,jdbcType=SMALLINT}
+    </delete>
+
+
+
+
+</mapper>

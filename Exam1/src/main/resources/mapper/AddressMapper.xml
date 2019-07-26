@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hand.pyh.dao.AddressMapper">
+  <resultMap id="BaseResultMap" type="Address">
+    <id column="address_id" jdbcType="SMALLINT" property="address_id" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="address2" jdbcType="VARCHAR" property="address2" />
+    <result column="district" jdbcType="VARCHAR" property="district" />
+    <result column="city_id" jdbcType="SMALLINT" property="city_id" />
+    <result column="postal_code" jdbcType="VARCHAR" property="postal_code" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="last_update" jdbcType="TIMESTAMP" property="last_update" />
+  </resultMap>
+  <sql id="BaseSql">
+    address_id, address, address2, district, city_id, postal_code, phone, last_update
+  </sql>
+
+  <select id="queryAddress" resultMap="BaseResultMap" parameterType="java.lang.String">
+    select
+        <include refid="BaseSql"></include>
+    from address
+    where address = #{address}
+  </select>
+
+
+
+
+
+</mapper>

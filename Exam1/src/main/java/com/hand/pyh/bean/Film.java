@@ -2,16 +2,15 @@ package com.hand.pyh.bean;
 
 import javax.validation.constraints.NotNull;
 import java.util.Date;
-import java.util.Enumeration;
 
 public class Film {
 
-
-//    @NotNull
     private Integer film_id;
-    @NotNull
+
     private String title;
+
     private String description;
+
     private Date release_year;
     @NotNull
     private Integer language_id;
@@ -24,9 +23,9 @@ public class Film {
     @NotNull
     private Double replacement_cost;
 
-    private Enumeration rating;  // enum 类型数据
+    private String rating;  // enum 类型数据
 
-    private Object special_features;  //Set 类型数据
+    private String special_features;  //Set 类型数据
 //    @NotNull
     private Date last_update;  //Timestamp 类型数据
 
@@ -118,19 +117,19 @@ public class Film {
         this.replacement_cost = replacement_cost;
     }
 
-    public Enumeration getRating() {
+    public String getRating() {
         return rating;
     }
 
-    public void setRating(Enumeration rating) {
+    public void setRating(String rating) {
         this.rating = rating;
     }
 
-    public Object getSpecial_features() {
+    public String getSpecial_features() {
         return special_features;
     }
 
-    public void setSpecial_features(Object special_features) {
+    public void setSpecial_features(String special_features) {
         this.special_features = special_features;
     }
 
@@ -147,7 +146,7 @@ public class Film {
         return "Film{" +
                 "film_id=" + film_id +
                 ", title='" + title + '\'' +
-                ", description='" + description + '\'' +
+//                ", description='" + description + '\'' +
                 ", release_year=" + release_year +
                 ", language_id=" + language_id +
                 ", original_language_id=" + original_language_id +

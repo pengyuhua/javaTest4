@@ -24,7 +24,7 @@ public class WebParameterParser implements HandlerMethodArgumentResolver {
 
     @Override
     public Object resolveArgument(MethodParameter parameter, ModelAndViewContainer mavContainer, NativeWebRequest webRequest, WebDataBinderFactory binderFactory) throws Exception {
-        String pageSize = webRequest.getParameter("pageSize");
+        String pageSize = webRequest.getParameter("page_size");
         String page = webRequest.getParameter("page");
         Page pageobject;
         if (page != null && pageSize != null) {

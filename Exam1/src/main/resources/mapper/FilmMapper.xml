@@ -2,20 +2,26 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.hand.pyh.dao.FilmMapper">
 
-<!--    <resultMap id="BaseResultMap" type="com.pyh.stock.Entry.StockDetail">-->
-<!--        <id column="save_id" jdbcType="INTEGER" property="save_id"/>-->
-<!--        <result column="stock_num" jdbcType="VARCHAR" property="stock_num"/>-->
-<!--        <result column="open" jdbcType="VARCHAR" property="open"/>-->
-<!--        <result column="close" jdbcType="VARCHAR" property="close"/>-->
-<!--        <result column="high" jdbcType="VARCHAR" property="high"/>-->
-<!--        <result column="low" jdbcType="VARCHAR" property="low"/>-->
-<!--        <result column="volume" jdbcType="VARCHAR" property="volume"/>-->
-<!--        <result column="up_time" jdbcType="VARCHAR" property="up_time"/>-->
-<!--    </resultMap>-->
+    <resultMap id="BaseResultMap" type="Film">
+        <id property="film_id" column="film_id" jdbcType="INTEGER" javaType="java.lang.Integer"></id>
+        <result property="title" column="title"></result>
+        <result property="description" column="description" jdbcType="VARCHAR" javaType="java.lang.String"></result>
+        <result property="release_year" column="release_year" javaType="java.util.Date"></result>
+        <result property="language_id" column="language_id"></result>
+        <result property="original_language_id" column="original_language_id"></result>
+        <result property="rental_duration" column="rental_duration" javaType="java.lang.Integer"></result>
+        <result property="rental_rate" column="rental_rate" javaType="java.lang.Double"></result>
+        <result property="length" column="length" javaType="java.lang.Integer"></result>
+        <result property="replacement_cost" column="replacement_cost" javaType="java.lang.Double"></result>
+        <result property="rating" column="rating" javaType="java.lang.String"></result>
+        <result property="special_features" column="special_features" javaType="java.lang.String"></result>
+        <result property="last_update" column="last_update" jdbcType="TIMESTAMP" javaType="java.util.Date"></result>
+    </resultMap>
 
+<!--`title`,问题   -->
     <sql id="Base_Column_List">
-        film_id, title, description, release_year, original_language_id,
-         `length`, rating, `language_id`, `rental_duration`, `rental_rate`, `replacement_cost`, `special_features`, last_update
+        film_id,  release_year, `language_id`, original_language_id,
+            `rental_duration`, `rental_rate`, `length`, `replacement_cost`, rating, `special_features`, last_update
     </sql>
 
 <!--    useGeneratedKeys="true" keyProperty="film_id"-->
@@ -28,15 +34,19 @@
         )
     </insert>
 
-    <select id="queryFilm" parameterType="java.lang.Integer" resultType="Film">
-        select * from film where film_id = #{film_id}
+    <select id="queryFilm" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select 
+            <include refid="Base_Column_List"></include>
+            , title, description
+        from film
+        where film_id = #{film_id}
     </select>
 
-<!--    <insert id="insertListData" parameterType="java.util.List">-->
-<!--        insert into stock_detail (stock_num, `open`, `close`, `high`, `low`, `volume`, up_time)-->
-<!--        values-->
-<!--        <foreach collection="list" item="item" index="index" separator=",">-->
-<!--            (#{item.stock_num},#{item.open},#{item.close},#{item.high},#{item.low},#{item.volume},#{item.up_time})-->
-<!--        </foreach>-->
-<!--    </insert>-->
+    <select id="listFilm" resultMap="BaseResultMap" parameterType="Page">
+        select
+        <include refid="Base_Column_List"></include>
+        , title
+        from film
+    </select>
+
 </mapper>

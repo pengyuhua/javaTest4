@@ -8,7 +8,7 @@ logging:
     org.springframework.web: debug #web日志打印级别
     org.springframework.boot.autoconfigure: error #关闭自动装配错误信息打印
   file: logger.txt
-  path: /mylog
+#  path: /mylog
 
 # mybatis
 #mybaits:

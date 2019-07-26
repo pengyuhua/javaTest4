@@ -1,12 +1,16 @@
 package com.hand.pyh.service.serviceImpl;
 
+import com.github.pagehelper.PageHelper;
 import com.hand.pyh.bean.Film;
+import com.hand.pyh.bean.Page;
 import com.hand.pyh.dao.FilmMapper;
 import com.hand.pyh.service.FilmService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 
 @Service
@@ -25,13 +29,19 @@ public class FilmServiceImpl implements FilmService {
         int insertDataId = film.getFilm_id();
         logger.info("添加结果:" + (result >= 1? "成功!": "失败!"));
         logger.info("添加结果检索信息:新添加数据编号:" + insertDataId );
-//        logger.info(queryFilm(insertDataId).toString());
+        logger.info(queryFilm(insertDataId).toString());
         return result;
     }
 
     @Override
     public Film queryFilm(int film_id) {
         return filmMapper.queryFilm(film_id);
+    }
+
+    @Override
+    public List<Film> listFilm(Page page) {
+        PageHelper.startPage(page.getPage(), page.getPageSize());
+        return filmMapper.listFilm(page);
     }
 
 }
