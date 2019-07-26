@@ -1,0 +1,8 @@
+# Exam1
+Exam1/target/
+
+docker/mysql/*.sql
+
+docker/java/*.jar
+
+

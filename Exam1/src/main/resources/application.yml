@@ -1,0 +1,35 @@
+debug: true
+
+server:
+  port: 18080
+
+logging:
+  level:
+    org.springframework.web: debug #web日志打印级别
+    org.springframework.boot.autoconfigure: error #关闭自动装配错误信息打印
+  file: logger.txt
+  path: /mylog
+
+# mybatis
+#mybaits:
+#  configuration:
+#      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.hand.pyh.bean
+
+
+# 配置通用mapper插件的内容
+#mapper:
+#  #配置通用接口位置，注意，该接口不能被springboot扫描到，否则会报错
+#  mappers: com.hand.pyh.spring.spring_boot.utils.mybatis.CommonMapper
+#  not-empty: false
+#  identity: MYSQL
+
+
+#Spring_datasource 配置
+spring:
+  datasource:
+    url: jdbc:mysql://${MYSQL_IP:localhost}:${MYSQL_PORT:3309}/${MYSQL_DB_NAME:sakila}?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: ${spring_datasource_username:root}
+    password: ${spring_datasource_password:root}
+    driver-class-name: ${spring_datasource_driver_class_name:com.mysql.jdbc.Driver}

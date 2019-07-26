@@ -1,0 +1,46 @@
+version: '3.7'
+services:
+  mysql:
+    restart: always
+    image: mysql_pyh:v2
+    container_name: mysql_hand_test4
+    networks:
+      - my_network
+    volumes:
+      - mysql:/var/lib/mysql
+    expose:
+      - "3306"
+    ports:
+      - "3309:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    command:
+      --character-set-server=utf8mb4
+      --lower_case_table_names=1
+
+  webapp:
+    restart: always
+    container_name: myWebApp
+    build: ./docker/java/
+    networks:
+      - my_network
+    expose:
+      - "18080"
+    ports:
+      - "80:18080"
+    depends_on:
+      - mysql
+    environment:
+      MYSQL_IP: mysql
+      MYSQL_PORT: 3306
+      MYSQL_DB_NAME: sakila
+      spring_datasource_driver_class_name: com.mysql.jdbc.Driver
+      spring_datasource_username: root
+      spring_datasource_password: root
+
+networks:
+  my_network:
+    driver: bridge
+
+volumes:
+  mysql:
