@@ -7,7 +7,7 @@
         last_update
     </sql>
     <sql id="InsertSql">
-        store_id, first_name, last_name, email , address_id, active
+        store_id, first_name, last_name, email , address_id, active, create_date
     </sql>
 
     <resultMap id="BaseResultMap" type="Customer">
@@ -26,7 +26,7 @@
         insert into customer
             ( <include refid="InsertSql"></include> )
         values (
-        #{store_id}, #{first_name}, #{last_name}, #{email}, (select address_id from address where address = #{address}) , #{active})
+        #{store_id}, #{first_name}, #{last_name}, #{email}, (select address_id from address where address = #{address}) , #{active}, #{create_date})
     </insert>
 
     <select id="queryCustomer" parameterType="Customer" resultMap="BaseResultMap">

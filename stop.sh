@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "stop.sh 正在执行中..."
 echo "查看程序运行日志记录:"
 docker stop myWebApp
 docker stop mysql_hand_test4

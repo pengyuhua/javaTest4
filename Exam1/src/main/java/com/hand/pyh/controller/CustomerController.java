@@ -20,7 +20,7 @@ public class CustomerController {
     @Autowired
     private CustomerService customerService;
 
-    @RequestMapping(value = "/create", method = RequestMethod.PUT)
+    @RequestMapping(value = "/create", method = RequestMethod.POST)
     public String createCustomer(Customer customer){
         customer.setCreate_date(new Date());
         logger.warn(customer.toString());
@@ -29,13 +29,13 @@ public class CustomerController {
         return customer1.getCustomer_id() != -1 ? "{\"createStatus\": true, \"newID\": "+customer1.getCustomer_id()+" }": "{\"createStatus\": false}";
     }
 
-    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    @RequestMapping(value = "/update", method = RequestMethod.PUT)
     public String updateCustomer(Customer customer){
         return customerService.updateCustomerSelective(customer) ? "{\"updateStatus\": true}" : "{\"updateStatus\": false}";
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.DELETE)
-    public String updateCustomer(int id){
-        return customerService.deleteCustomer(id) ? "{\"deleteStatus\": true}" : "{\"deleteStatus\": false}";
+    public String updateCustomer(int customer_id){
+        return customerService.deleteCustomer(customer_id) ? "{\"deleteStatus\": true}" : "{\"deleteStatus\": false}";
     }
 }

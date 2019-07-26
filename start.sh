@@ -11,8 +11,8 @@ echo "开始构建容器实例"
 docker-compose up -d --build
 
 
-echo "开始执行curl.sh文件"
-. ./curl.sh
+
+#. ./curl.sh
 
 
 
