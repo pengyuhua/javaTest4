@@ -1507,3 +1507,675 @@ java.sql.SQLException: Invalid value for getInt() - '复仇者连连看'
 2019-07-26 11:45:49.226  INFO 3552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
 2019-07-26 11:45:56.509 DEBUG 3552 --- [Thread-25] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a82c829, started on Fri Jul 26 11:45:48 CST 2019
 2019-07-26 11:45:56.514  INFO 3552 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:36:09.619 DEBUG 4304 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:36:09.800  INFO 4304 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 4304 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:36:09.803  INFO 4304 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:36:09.803 DEBUG 4304 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:36:09.888 DEBUG 4304 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:36:09.888 DEBUG 4304 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:36:09.890 DEBUG 4304 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:36:09.890 DEBUG 4304 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
+2019-07-26 13:36:09.890 DEBUG 4304 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-actuator/target/classes/, /spring-boot-devtools/target/classes/, /spring-boot/target/classes/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/target/classes/, /spring-boot-starter/target/classes/]
+2019-07-26 13:36:09.891  INFO 4304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-26 13:36:09.891  INFO 4304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-26 13:36:09.891 DEBUG 4304 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6998c66c
+2019-07-26 13:36:11.429 DEBUG 4304 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:36:11.429 DEBUG 4304 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:36:11.430 DEBUG 4304 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:36:11.513  INFO 4304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:36:11.536  INFO 4304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:36:11.536  INFO 4304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:36:11.630  INFO 4304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:36:11.630 DEBUG 4304 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:36:11.630  INFO 4304 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1739 ms
+2019-07-26 13:36:11.661 DEBUG 4304 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:36:11.661 DEBUG 4304 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:36:11.682 DEBUG 4304 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:36:11.683 DEBUG 4304 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:36:11.683 DEBUG 4304 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:36:11.683 DEBUG 4304 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:36:12.119 DEBUG 4304 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:36:12.211  INFO 4304 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:36:12.222 DEBUG 4304 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:36:12.261 DEBUG 4304 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:36:12.269 DEBUG 4304 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:36:12.277 DEBUG 4304 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:36:12.319 DEBUG 4304 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:36:12.394 DEBUG 4304 --- [restartedMain] o.s.b.d.livereload.LiveReloadServer      : Starting live reload server on port 35729
+2019-07-26 13:36:12.395  INFO 4304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:36:12.440  INFO 4304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:36:12.444  INFO 4304 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 3.292 seconds (JVM running for 4.753)
+2019-07-26 13:36:12.445 DEBUG 4304 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2019-07-26 13:36:12.445 DEBUG 4304 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
+2019-07-26 13:36:12.446 DEBUG 4304 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@71d63eba
+2019-07-26 13:36:12.446 DEBUG 4304 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:37:06.647 DEBUG 4304 --- [Thread-15] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6998c66c, started on Fri Jul 26 13:36:09 CST 2019
+2019-07-26 13:37:06.652  INFO 4304 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:37:12.135 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:37:12.247  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:37:12.248  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:37:12.249 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:37:12.310 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:37:12.310 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:37:12.311 DEBUG 8904 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:37:12.311 DEBUG 8904 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
+2019-07-26 13:37:12.311 DEBUG 8904 --- [restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-actuator/target/classes/, /spring-boot-devtools/target/classes/, /spring-boot/target/classes/, /spring-boot-starter-[\w-]+/, /spring-boot-autoconfigure/target/classes/, /spring-boot-starter/target/classes/]
+2019-07-26 13:37:12.312  INFO 8904 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-26 13:37:12.312  INFO 8904 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-26 13:37:12.312 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34f1e903
+2019-07-26 13:37:14.073 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:37:14.074 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:37:14.074 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:37:14.171  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:37:14.198  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:37:14.198  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:37:14.311  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:37:14.311 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:37:14.311  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1999 ms
+2019-07-26 13:37:14.339 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:37:14.339 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:37:14.359 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:37:14.360 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:37:14.361 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:37:14.361 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:37:14.736 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:37:14.849  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:37:14.862 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:37:14.916 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:37:14.926 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:37:14.938 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:37:14.990 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:37:15.082 DEBUG 8904 --- [restartedMain] o.s.b.d.livereload.LiveReloadServer      : Starting live reload server on port 35729
+2019-07-26 13:37:15.084  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:37:15.144  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:37:15.149  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 3.53 seconds (JVM running for 4.76)
+2019-07-26 13:37:15.152 DEBUG 8904 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2019-07-26 13:37:15.153 DEBUG 8904 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
+2019-07-26 13:37:15.153 DEBUG 8904 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3425c37
+2019-07-26 13:37:15.153 DEBUG 8904 --- [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:37:33.513  INFO 8904 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-26 13:37:33.514  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-26 13:37:33.514 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-26 13:37:33.520 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-26 13:37:33.520  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-07-26 13:37:33.529 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/films/my", parameters={}
+2019-07-26 13:37:33.534 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest)
+2019-07-26 13:37:33.564  WARN 8904 --- [http-nio-18080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest)]
+2019-07-26 13:37:33.564 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2019-07-26 13:37:33.571 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-26 13:37:33.574 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-26 13:37:33.586 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-07-26 13:37:33.590 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2019-07-26 13:48:04.902 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:48:04.904 DEBUG 8904 --- [Thread-12] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:48:04.904 DEBUG 8904 --- [Thread-12] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34f1e903, started on Fri Jul 26 13:37:12 CST 2019
+2019-07-26 13:48:04.909  INFO 8904 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:48:05.691 DEBUG 8904 --- [Thread-12] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@11237a2
+2019-07-26 13:48:05.691 DEBUG 8904 --- [Thread-12] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:48:05.757 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:48:05.778  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:48:05.778  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:48:05.778 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:48:05.785 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:48:05.785 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:48:05.785 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6550bf36
+2019-07-26 13:48:06.237 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:48:06.237 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:48:06.238 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:48:06.267  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:48:06.268  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:48:06.268  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:48:06.285  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:48:06.285 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:48:06.285  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 500 ms
+2019-07-26 13:48:06.296 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:48:06.296 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:48:06.297 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:48:06.297 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:48:06.298 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:48:06.298 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:48:06.375 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:48:06.424  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:48:06.430 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:48:06.448 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:48:06.458 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:48:06.472 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:48:06.518 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:48:06.567  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:48:06.593  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:48:06.593  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.889 seconds (JVM running for 656.204)
+2019-07-26 13:48:06.596  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:48:20.513 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:48:20.515 DEBUG 8904 --- [Thread-20] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:48:20.515 DEBUG 8904 --- [Thread-20] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6550bf36, started on Fri Jul 26 13:48:05 CST 2019
+2019-07-26 13:48:20.516  INFO 8904 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:48:21.298 DEBUG 8904 --- [Thread-20] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@40660f82
+2019-07-26 13:48:21.298 DEBUG 8904 --- [Thread-20] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:48:21.353 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:48:21.362  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:48:21.363  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:48:21.363 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:48:21.368 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:48:21.369 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:48:21.369 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c3d254c
+2019-07-26 13:48:21.859 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:48:21.859 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:48:21.859 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:48:21.893  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:48:21.895  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:48:21.895  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:48:21.918  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:48:21.919 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:48:21.919  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 550 ms
+2019-07-26 13:48:21.928 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:48:21.928 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:48:21.929 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:48:21.930 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:48:21.930 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:48:21.931 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:48:22.014 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:48:22.061  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:48:22.064 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:48:22.074 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:48:22.080 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:48:22.086 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:48:22.110 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:48:22.143  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:48:22.161  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:48:22.161  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.852 seconds (JVM running for 671.772)
+2019-07-26 13:48:22.163  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:49:45.317 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:49:45.318 DEBUG 8904 --- [Thread-26] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:49:45.318 DEBUG 8904 --- [Thread-26] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c3d254c, started on Fri Jul 26 13:48:21 CST 2019
+2019-07-26 13:49:45.321  INFO 8904 --- [Thread-26] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:49:46.046 DEBUG 8904 --- [Thread-26] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@9d27456
+2019-07-26 13:49:46.046 DEBUG 8904 --- [Thread-26] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:49:46.089 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:49:46.096  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:49:46.096  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:49:46.096 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:49:46.100 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:49:46.100 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:49:46.100 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51f4c49a
+2019-07-26 13:49:46.441 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:49:46.442 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:49:46.442 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:49:46.470  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:49:46.471  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:49:46.471  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:49:46.489  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:49:46.489 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:49:46.489  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 389 ms
+2019-07-26 13:49:46.496 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:49:46.497 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:49:46.498 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:49:46.498 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:49:46.498 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:49:46.498 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:49:46.560 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:49:46.593  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:49:46.598 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:49:46.606 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:49:46.610 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:49:46.615 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:49:46.634 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:49:46.663  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:49:46.681  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:49:46.682  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.626 seconds (JVM running for 756.292)
+2019-07-26 13:49:46.684  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:49:54.742  INFO 8904 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-26 13:49:54.743  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-26 13:49:54.743 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-26 13:49:54.749 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-26 13:49:54.750  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-26 13:49:54.750 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/films/my", parameters={}
+2019-07-26 13:49:54.750 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest)
+2019-07-26 13:49:54.754  WARN 8904 --- [http-nio-18080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest)]
+2019-07-26 13:49:54.754 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2019-07-26 13:49:54.755 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-26 13:49:54.756 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-26 13:49:54.767 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-07-26 13:49:54.768 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2019-07-26 13:52:46.617 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:52:46.618 DEBUG 8904 --- [Thread-32] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:52:46.618 DEBUG 8904 --- [Thread-32] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51f4c49a, started on Fri Jul 26 13:49:46 CST 2019
+2019-07-26 13:52:46.620  INFO 8904 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:52:47.345 DEBUG 8904 --- [Thread-32] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5c9bda10
+2019-07-26 13:52:47.346 DEBUG 8904 --- [Thread-32] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:52:47.388 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:52:47.397  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:52:47.397  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:52:47.397 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:52:47.400 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:52:47.400 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:52:47.400 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79f40bc9
+2019-07-26 13:52:47.742 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:52:47.742 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:52:47.742 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:52:47.778  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:52:47.779  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:52:47.779  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:52:47.796  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:52:47.796 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:52:47.796  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 396 ms
+2019-07-26 13:52:47.804 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:52:47.804 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:52:47.805 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:52:47.805 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:52:47.805 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:52:47.805 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:52:47.869 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:52:47.899  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:52:47.903 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:52:47.911 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:52:47.915 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:52:47.920 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:52:47.942 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:52:47.979  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:52:47.999  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:52:47.999  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.646 seconds (JVM running for 937.61)
+2019-07-26 13:52:48.001  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:53:09.574 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:53:09.575 DEBUG 8904 --- [Thread-38] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:53:09.575 DEBUG 8904 --- [Thread-38] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79f40bc9, started on Fri Jul 26 13:52:47 CST 2019
+2019-07-26 13:53:09.576  INFO 8904 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:53:10.367 DEBUG 8904 --- [Thread-38] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@30b9e038
+2019-07-26 13:53:10.367 DEBUG 8904 --- [Thread-38] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:53:10.423 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:53:10.432  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:53:10.433  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:53:10.433 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:53:10.436 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:53:10.437 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:53:10.437 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@24919d19
+2019-07-26 13:53:11.132 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:53:11.133 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:53:11.133 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:53:11.202  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:53:11.203  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:53:11.204  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:53:11.240  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:53:11.243 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:53:11.243  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 806 ms
+2019-07-26 13:53:11.263 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:53:11.264 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:53:11.266 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:53:11.267 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:53:11.277 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:53:11.283 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:53:11.479 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:53:11.614  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:53:11.623 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:53:11.642 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:53:11.650 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:53:11.661 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:53:11.701 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:53:11.761  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:53:11.787  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:53:11.788  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 1.409 seconds (JVM running for 961.399)
+2019-07-26 13:53:11.790  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:53:28.330 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:53:28.332 DEBUG 8904 --- [Thread-44] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:53:28.332 DEBUG 8904 --- [Thread-44] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@24919d19, started on Fri Jul 26 13:53:10 CST 2019
+2019-07-26 13:53:28.334  INFO 8904 --- [Thread-44] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:53:29.024 DEBUG 8904 --- [Thread-44] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1b5db398
+2019-07-26 13:53:29.024 DEBUG 8904 --- [Thread-44] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:53:29.075 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:53:29.083  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:53:29.083  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:53:29.084 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:53:29.088 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:53:29.089 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:53:29.089 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ca8500f
+2019-07-26 13:53:29.506 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:53:29.506 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:53:29.507 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:53:29.543  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:53:29.544  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:53:29.544  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:53:29.563  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:53:29.563 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:53:29.563  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 474 ms
+2019-07-26 13:53:29.570 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:53:29.571 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:53:29.571 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:53:29.571 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:53:29.571 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:53:29.571 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:53:29.633 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:53:29.664  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:53:29.669 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:53:29.678 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:53:29.681 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:53:29.686 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:53:29.706 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:53:29.741  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:53:29.760  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:53:29.761  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.727 seconds (JVM running for 979.372)
+2019-07-26 13:53:29.763  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:53:42.361  INFO 8904 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-26 13:53:42.362  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-26 13:53:42.362 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-26 13:53:42.368 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-26 13:53:42.368  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-07-26 13:53:42.368 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/films/my", parameters={}
+2019-07-26 13:53:42.369 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest)
+2019-07-26 13:53:42.371  WARN 8904 --- [http-nio-18080-exec-1] c.hand.pyh.resolver.WebParameterParser   : 自定义注解支持
+2019-07-26 13:53:42.373 DEBUG 8904 --- [http-nio-18080-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Could not resolve parameter [0] in public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest): 未传入完整page And pageSize 属性值
+2019-07-26 13:53:42.374 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.Exception: 未传入完整page And pageSize 属性值
+2019-07-26 13:53:42.379 ERROR 8904 --- [http-nio-18080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: 未传入完整page And pageSize 属性值] with root cause
+
+java.lang.Exception: 未传入完整page And pageSize 属性值
+	at com.hand.pyh.resolver.WebParameterParser.resolveArgument(WebParameterParser.java:41) ~[classes/:na]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_172]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_172]
+
+2019-07-26 13:53:42.379 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-26 13:53:42.380 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-26 13:53:42.388 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-07-26 13:53:42.388 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2019-07-26 13:54:17.563 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:54:17.564 DEBUG 8904 --- [Thread-50] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:54:17.564 DEBUG 8904 --- [Thread-50] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ca8500f, started on Fri Jul 26 13:53:29 CST 2019
+2019-07-26 13:54:17.565  INFO 8904 --- [Thread-50] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:54:18.215 DEBUG 8904 --- [Thread-50] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@270af7e
+2019-07-26 13:54:18.215 DEBUG 8904 --- [Thread-50] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:54:18.273 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:54:18.282  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:54:18.282  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:54:18.282 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:54:18.287 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:54:18.287 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:54:18.287 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31a6d7a0
+2019-07-26 13:54:18.726 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:54:18.726 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:54:18.727 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:54:18.760  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:54:18.761  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:54:18.761  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:54:18.780  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:54:18.780 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:54:18.780  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 493 ms
+2019-07-26 13:54:18.788 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:54:18.788 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:54:18.789 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:54:18.789 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:54:18.789 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:54:18.789 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:54:18.852 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:54:18.882  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:54:18.885 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:54:18.891 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:54:18.894 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:54:18.898 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:54:18.916 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:54:18.945  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:54:18.960  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:54:18.961  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.737 seconds (JVM running for 1028.572)
+2019-07-26 13:54:18.963  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:54:59.716 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:54:59.717 DEBUG 8904 --- [Thread-56] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:54:59.717 DEBUG 8904 --- [Thread-56] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31a6d7a0, started on Fri Jul 26 13:54:18 CST 2019
+2019-07-26 13:54:59.719  INFO 8904 --- [Thread-56] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:55:00.414 DEBUG 8904 --- [Thread-56] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@449431b8
+2019-07-26 13:55:00.415 DEBUG 8904 --- [Thread-56] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:55:00.453 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:55:00.459  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:55:00.459  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:55:00.459 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:55:00.462 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:55:00.462 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:55:00.463 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50afe349
+2019-07-26 13:55:00.797 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:55:00.798 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:55:00.798 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:55:00.828  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:55:00.829  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:55:00.829  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:55:00.843  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:55:00.843 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:55:00.843  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 380 ms
+2019-07-26 13:55:00.851 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:55:00.851 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:55:00.852 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:55:00.852 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:55:00.852 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:55:00.852 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:55:00.910 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:55:00.942  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:55:00.945 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:55:00.951 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:55:00.954 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:55:00.958 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:55:00.975 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:55:01.001  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:55:01.023  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:55:01.023  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.601 seconds (JVM running for 1070.635)
+2019-07-26 13:55:01.025  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:55:59.048  INFO 8904 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-26 13:55:59.050  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-26 13:55:59.050 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-26 13:55:59.054 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-26 13:55:59.054  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-07-26 13:55:59.054 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/films/my", parameters={}
+2019-07-26 13:55:59.055 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest)
+2019-07-26 13:55:59.058  WARN 8904 --- [http-nio-18080-exec-1] c.hand.pyh.resolver.WebParameterParser   : 自定义注解支持
+2019-07-26 13:55:59.058 DEBUG 8904 --- [http-nio-18080-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Could not resolve parameter [0] in public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest): do not get page And pageSize properties
+2019-07-26 13:55:59.059 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.Exception: do not get page And pageSize properties
+2019-07-26 13:55:59.060 ERROR 8904 --- [http-nio-18080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: do not get page And pageSize properties] with root cause
+
+java.lang.Exception: do not get page And pageSize properties
+	at com.hand.pyh.resolver.WebParameterParser.resolveArgument(WebParameterParser.java:40) ~[classes/:na]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_172]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_172]
+
+2019-07-26 13:55:59.060 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-26 13:55:59.061 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-26 13:55:59.069 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-07-26 13:55:59.070 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2019-07-26 13:56:02.044 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:56:02.044 DEBUG 8904 --- [Thread-62] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:56:02.044 DEBUG 8904 --- [Thread-62] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50afe349, started on Fri Jul 26 13:55:00 CST 2019
+2019-07-26 13:56:02.045  INFO 8904 --- [Thread-62] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:56:02.663 DEBUG 8904 --- [Thread-62] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4e6ec670
+2019-07-26 13:56:02.664 DEBUG 8904 --- [Thread-62] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:56:02.697 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:56:02.702  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:56:02.703  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:56:02.703 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:56:02.705 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:56:02.705 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:56:02.705 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@e375f1
+2019-07-26 13:56:03.063 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:56:03.064 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:56:03.064 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:56:03.094  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:56:03.094  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:56:03.094  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:56:03.109  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:56:03.109 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:56:03.109  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 404 ms
+2019-07-26 13:56:03.116 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:56:03.116 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:56:03.117 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:56:03.117 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:56:03.117 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:56:03.117 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:56:03.173 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:56:03.208  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:56:03.211 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:56:03.219 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:56:03.225 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:56:03.232 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:56:03.253 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:56:03.297  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:56:03.318  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:56:03.318  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.647 seconds (JVM running for 1132.929)
+2019-07-26 13:56:03.321  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:56:40.726  INFO 8904 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-26 13:56:40.727  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-26 13:56:40.727 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-26 13:56:40.731 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-26 13:56:40.731  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-07-26 13:56:40.731 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/films/my?page=10&pageSize=20", parameters={masked}
+2019-07-26 13:56:40.732 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest)
+2019-07-26 13:56:40.736  WARN 8904 --- [http-nio-18080-exec-1] c.hand.pyh.resolver.WebParameterParser   : 自定义注解支持
+2019-07-26 13:56:40.736  WARN 8904 --- [http-nio-18080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page,org.springframework.web.context.request.WebRequest)]
+2019-07-26 13:56:40.736 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2019-07-26 13:56:40.737 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error?page=10&pageSize=20", parameters={masked}
+2019-07-26 13:56:40.738 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-26 13:56:40.749 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-07-26 13:56:40.750 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2019-07-26 13:57:25.862 DEBUG 8904 --- [File Watcher] o.s.boot.devtools.restart.Restarter      : Restarting application
+2019-07-26 13:57:25.863 DEBUG 8904 --- [Thread-68] o.s.boot.devtools.restart.Restarter      : Stopping application
+2019-07-26 13:57:25.863 DEBUG 8904 --- [Thread-68] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@e375f1, started on Fri Jul 26 13:56:02 CST 2019
+2019-07-26 13:57:25.865  INFO 8904 --- [Thread-68] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:57:26.503 DEBUG 8904 --- [Thread-68] o.s.boot.devtools.restart.Restarter      : Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7a9786a4
+2019-07-26 13:57:26.504 DEBUG 8904 --- [Thread-68] o.s.boot.devtools.restart.Restarter      : Starting application com.hand.pyh.Application with URLs [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:57:26.552 DEBUG 8904 --- [restartedMain] .c.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/]
+2019-07-26 13:57:26.559  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Starting Application on DESKTOP-MEIVGV6 with PID 8904 (C:\Users\PENGYUHUA\Desktop\JavaTest4\Exam1\target\classes started by PENGYUHUA in C:\Users\PENGYUHUA\Desktop\JavaTest4)
+2019-07-26 13:57:26.559  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : No active profile set, falling back to default profiles: default
+2019-07-26 13:57:26.559 DEBUG 8904 --- [restartedMain] o.s.boot.SpringApplication               : Loading source class com.hand.pyh.Application
+2019-07-26 13:57:26.563 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.properties' (classpath:/application.properties)
+2019-07-26 13:57:26.563 DEBUG 8904 --- [restartedMain] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/C:/Users/PENGYUHUA/Desktop/JavaTest4/Exam1/target/classes/application.yml' (classpath:/application.yml)
+2019-07-26 13:57:26.563 DEBUG 8904 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2bfa5b69
+2019-07-26 13:57:26.900 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:57:26.900 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\PENGYUHUA\.m2\repository\org\springframework\boot\spring-boot\2.1.6.RELEASE\spring-boot-2.1.6.RELEASE.jar
+2019-07-26 13:57:26.901 DEBUG 8904 --- [restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-07-26 13:57:26.934  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:57:26.934  INFO 8904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-26 13:57:26.934  INFO 8904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:57:26.950  INFO 8904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-26 13:57:26.950 DEBUG 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-26 13:57:26.950  INFO 8904 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 387 ms
+2019-07-26 13:57:26.958 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-07-26 13:57:26.958 DEBUG 8904 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2019-07-26 13:57:26.959 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2019-07-26 13:57:26.959 DEBUG 8904 --- [restartedMain] .s.b.w.s.f.OrderedHiddenHttpMethodFilter : Filter 'hiddenHttpMethodFilter' configured for use
+2019-07-26 13:57:26.959 DEBUG 8904 --- [restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2019-07-26 13:57:26.959 DEBUG 8904 --- [restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2019-07-26 13:57:27.020 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-26 13:57:27.051  INFO 8904 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-26 13:57:27.054 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-26 13:57:27.061 DEBUG 8904 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-07-26 13:57:27.064 DEBUG 8904 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-26 13:57:27.069 DEBUG 8904 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-26 13:57:27.086 DEBUG 8904 --- [restartedMain] inMXBeanRegistrar$SpringApplicationAdmin : Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-07-26 13:57:27.111  INFO 8904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-26 13:57:27.127  INFO 8904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:57:27.128  INFO 8904 --- [restartedMain] com.hand.pyh.Application                 : Started Application in 0.613 seconds (JVM running for 1216.739)
+2019-07-26 13:57:27.130  INFO 8904 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-26 13:57:31.282  INFO 8904 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-26 13:57:31.284  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-26 13:57:31.284 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-26 13:57:31.287 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-26 13:57:31.287  INFO 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-07-26 13:57:31.288 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/films/my?page=10&pageSize=20", parameters={masked}
+2019-07-26 13:57:31.288 DEBUG 8904 --- [http-nio-18080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public void com.hand.pyh.controller.FilmController.test(com.hand.pyh.bean.Page)
+2019-07-26 13:57:31.291  WARN 8904 --- [http-nio-18080-exec-1] c.hand.pyh.resolver.WebParameterParser   : 自定义注解支持
+2019-07-26 13:57:31.291  INFO 8904 --- [http-nio-18080-exec-1] com.hand.pyh.controller.FilmController   : 控制器自定义参数解析器解析数据:
+2019-07-26 13:57:31.291  INFO 8904 --- [http-nio-18080-exec-1] com.hand.pyh.controller.FilmController   : page_num:10
+2019-07-26 13:57:31.291  INFO 8904 --- [http-nio-18080-exec-1] com.hand.pyh.controller.FilmController   : pageSize_num:20
+2019-07-26 13:57:31.305 DEBUG 8904 --- [http-nio-18080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-07-26 13:57:31.305 DEBUG 8904 --- [http-nio-18080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2019-07-26 13:57:31.305 DEBUG 8904 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-26 14:03:41.824 DEBUG 8904 --- [Thread-79] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2bfa5b69, started on Fri Jul 26 13:57:26 CST 2019
+2019-07-26 14:03:41.830  INFO 8904 --- [Thread-79] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
